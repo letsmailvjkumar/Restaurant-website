@@ -2,7 +2,7 @@
 Restaurant-menu
 <h1>Project Overview</h1>
 <h3>Task</h3> 
-<ul>
+<ol>
   <li>Mainly 5 tasks are done when you go in a restaurant. You get the menu and then Someone takes your order. Then your order is given to the chef and the chef starts preparing it. Once food is cooked, the food is given to the waiter and the waiter gives the food to you. then you eat it and pay for it.</li>
   <li>Make 5 functions</li>
   <li>First function - getMenu() -> On the load of the screen run this function and In this function you'll make an call using fetch to get the food items from the JSON and show them to a user</li>
@@ -13,4 +13,4 @@ Restaurant-menu
   <li>You need to handle 4 promises back to back and run the last thankyou function one after the other. Use either promise chaining or async await or promise methods to do the following.</li>
   <li>So inshort you need to handle 4 promises back to back and run the last thankyou fnc one after the other. use either promise chaining or async await or promise methods to do the following.</li>
   <li>You are expected to replicate the same UI for the project. Remember there are 2 screens that are to be built.</li>
-</ul>
+</ol>
