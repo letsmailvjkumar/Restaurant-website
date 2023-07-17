@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="./menu.css">
+</head>
+<body>
+    <aside>
+        <div class="left-container">
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="./images/—Pngtree—javanese character with blangkon holding_8999487 1.png" alt="">
+                </div>
+                <div class="para">Fizza Mahal Menu</div>
+                <div class="para" style="color: rgb(118, 23, 24);">Your Slogan</div>
+            </div> 
+            <hr class="custom-hr">
+            <div class="nav-links">
+                <div >Quick Links</div>
+                    <div class="links">1. Home</div>
+                    <div class="links">2. Your Orders</div>
+                    <div class="links">3. Wallet</div>
+                    <div class="links">4. Profile</div>
+                    <div class="links">5. Logout</div> 
+            </div>
+            <hr class="custom-hr">
+            <div class="info-container">
+                <div>More About Us</div>
+                <div class="info">1. Our Blog</div>
+                <div class="info">2. Upcoming Dishes</div>
+                <div class="info">3. Our Story</div>
+                <div class="info">4. Social Media Links</div>
+            </div>
+        </div>
+    </aside>
+    <main>
+        <div class="container">
+            <div class="top-section">
+                <div id="search-box">
+                    <input type="text" placeholder="Search Food Item">
+                </div>
+                <div id="btn">
+                    <button>SignUp</button>
+                    <button>Login</button>
+                </div>
+                <div id="cart">
+                    <img src="./images/cart.png" alt="">
+                </div>
+            </div>
+            <div class="abc">
+                <h1><a class="menutag" href="/menu.html">Menu</a></h1>
+                <span><button onclick="placeOrder()">Place Order</button></span>
+            </div>
+            <div class="model-container">
+                <div class="model">
+                    <i class='bx bxs-heart'></i>
+                    <h3>Order status</h3>
+                    <p id="status"></p>
+                    <button id="pay-button" onclick="payment()"></button>
+                    <button id="cancel" onclick="closePopup()">cancel</button>
+                    <i class='bx bx-x' onclick="closePopup()"></i>
+                </div>
+        
+            </div>
+            <div class="menu">
+               
+                  
+                
+            </div>
+        </div>
+        </div>
+        <script src="./menu.js"></script>
+</body>
+</html>

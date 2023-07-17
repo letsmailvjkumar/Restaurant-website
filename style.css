@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(17,19,21);
+    font-family: 'Inter', sans-serif;
+    color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-width: 1200px;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;   
+}
+aside{
+    background-color: rgb(12,14,16);
+    text-align: center;
+    color: white;
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+}
+aside img{
+    position: relative;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    
+}
+.para{
+    padding: 5px;
+}
+.custom-hr{
+    margin-top: 20px;
+    border: 0;
+    border-top: 1px solid white;
+}
+.nav-links{
+    margin-top: 15px;
+}
+.links{
+    display: flex;
+    margin-top: 10px;
+    padding-left:20px;
+    flex-flow: start;
+}
+.info-container{
+    margin-top: 15px;
+}
+.info{
+    display: flex;
+    flex-flow: start;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+main{
+    position: relative;
+    left: 19%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.top-section{
+    display: flex;
+    align-items: center;
+    
+}
+#search-box{
+    height: 50px;
+    width: 70%;
+    padding: 10px;
+    margin-left: 10px;
+}
+input[type="text"]{
+    width: 100%;
+    padding-left:15px;
+    height: 100%;
+    background-color: rgb(39, 42, 48);
+    border: none;
+    color: white;
+}
+#btn{
+    padding: 8px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    margin-left: 10px;
+    background-color: rgb(225, 36, 36);
+    color: white;
+}
+#cart img{
+    margin-left: 8px;
+}
+
+.banner img{
+    width: 1150px;
+    height: 300px;
+    padding-left: 20px;
+}
+.title{
+    display: flex;
+    font-weight: 600;
+    font-size: larger;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.menupart{
+    background-color: #191d20;
+    color:white;
+    margin: 5px;
+    border-radius: 10px;
+}
+.menu-img{
+    display: flex;
+    justify-content: center ;
+}
+.img1{
+    width: 90%;
+    margin-top: 20px;
+    height: 200px;
+    border-radius: 10px;
+}
+.menu-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu-text{
+    margin: 20px 0px 10px 20px;
+}
+.menu-addcart button{
+    background-color:  #191d20;
+    border: none;
+}
+.abc{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    padding: 12px 22px;
+
+}
